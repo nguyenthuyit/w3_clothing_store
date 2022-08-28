@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="sidebar" class="col-30">
+        <h1 class="lo-go">LOGO</h1>
+        <ul class="sidebar-clothing">
+            <li><a href="#">Shirt</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="javascript:void(0)"  onclick="hideMenu('subside')">Jeans <i class="icon ti-angle-down"></i></a>
+                <ul id="subside" class="sub-sidebar">
+                    <li><a href="#"><i class="icon ti-angle-right"></i> Skinny</a></li>
+                    <li><a href="#">Relaxed</a></li>
+                    <li><a href="#">Bootcut</a></li>
+                    <li><a href="#">Straight</a></li>
+                </ul>
+            
+            
+            </li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Gymwear</a></li>
+            <li><a href="#">Blazers</a></li>
+            <li><a href="#">Shoes</a></li>
+        </ul>
+        <ul class="sidebar-menu">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0)" id="new">Newsletter</a></li>
+            <li><a href="#">Subsribe</a></li>
+        </ul>
+        
+
+
+    </div>
+    <div class="menu-tl-mobi">
+        <h1 class="lo-go">LOGO</h1>
+       <button id="btn-tl-mob"><i class="ti-menu-alt"></i></button>
+    </div>
+
+    <div class="row">
+        <div class="col-70 m-col-full">
+
+            <div id="header">
+                <p class="title-header">Jeans</p>
+                <div class="icon-header">
+                    <i class="icon ti-shopping-cart"></i>
+                    <i class="icon ti-search"></i>
+                </div>
+            </div>
+            <div class="img-header">
+                <img src="./assets/img/jeans.jpg" alt="">
+                <div class="img-info">
+                    <p class="title-img">New arrivals</p><br><br>
+                    <p class="des-img">COLLECTION 2016</p><br><br>
+                    <a href="#content" class="btn-img">SHOP NOW</a>
+                </div>
+            </div><br><br>
+            <div id="content">
+                <p class="des-gird">8 items</p><br>
+                <div class="content-gird">
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans1.jpg" alt="">
+                        <p class="name-item">Ripped Skinny Jeans</p>
+                        <p class="price-item">$24.99</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans2.jpg" alt="">        
+                        <p class="name-item">Mega Ripped Jeans</p>
+                        <p class="price-item">$19.99</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans3.jpg" alt="">
+                        <p class="name-item">Mega Ripped Jeans</p>
+                        <p class="price-item">$19.99</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans4.jpg" alt="">
+                        <p class="name-item">Washed Skinny Jeans</p>
+                        <p class="price-item">$20.50</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans4.jpg" alt="">
+                        <p class="name-item">Washed Skinny Jeans</p>
+                        <p class="price-item">$20.50</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans3.jpg" alt="">
+                        <p class="name-item">Vintage Skinny Jeans</p>
+                        <p class="price-item">$24.99</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans2.jpg" alt="">
+                        <p class="name-item">Vintage Skinny Jeans</p>
+                        <p class="price-item">$14.99</p>
+                    </div>
+                    <div class="gird-item">
+                        <img src="./assets/img/jeans1.jpg" alt="">
+                        <p class="name-item">Ripped Skinny Jeans</p>
+                        <p class="price-item">$24.99</p>
+                    </div>
+                </div>
+                <div class="content-subscribe">
+                    <p class="title-subs">Subscribe</p><br><br>
+                    <p class="des-subs">To get special offers and VIP treatment:</p><br><br>
+                    <form action="">
+                        <input type="email" name="" id="" required placeholder="Enter e-mail" class="form-control">
+                        <input type="submit" value="Subscribe" class="form-submit">
+                    </form>
+                    
+                </div>
+                <div id="contact" class="content-contact">
+                    <div class="form-contact">
+                        <p class="title-contact text-center">Contact</p><br>
+                        <p class="des-form text-center">Questions? Go ahead.</p><br>
+                        <form action="">
+                            <input type="text" name="" id="" required class="form-control-contact" placeholder="Name">
+                            <input type="email" name="" id="" required class="form-control-contact"  placeholder="Email">
+                            <input type="text" name="" id="" required class="form-control-contact" placeholder="Subject">
+                            <input type="text" name="" id="" required class="form-control-contact" placeholder="Message">
+                            <input type="submit" value="Send" class="form-control-contact form-sub">
+
+                        </form>
+                    </div>
+                    <div class="about-contact">
+                        <p class="title-contact">About</p><br>
+                        <a href="">About us</a>
+                        <a href="">We're hiring</a>
+                        <a href="">Support</a>
+                        <a href="">Find store</a>
+                        <a href="">Shipment</a>
+                        <a href="">Payment</a>
+                        <a href="">Gift card</a>
+                        <a href="">Return</a>
+                        <a href="">Help</a>
+                    </div>
+                    <div class="store-contact">
+                        <p class="title-contact">Store</p><br>
+                        <p class="info-store"><i class="ti-location-pin"></i> Company Name</p>
+                        <p class="info-store"><i class="ti-mobile"></i>  0044123123</p>
+                        <p class="info-store"><i class="ti-email"></i> ex@mail.com</p>
+                        <p class="title-contact">We accept</p><br>
+                        <p class="info-store"><i class="ti-wallet"></i> Amex</p>
+                        <p class="info-store"><i class="ti-credit-card"></i> Credit Card</p><br>
+                        <div class="store-medial">
+                            <a href=""><i class="ti-facebook"></i></a>
+                            <a href=""><i class="ti-instagram"></i></a>
+                            <a href=""><i class="ti-twitter"></i></a>
+                            <a href=""><i class="ti-pinterest"></i></a>
+                            <a href=""><i class="ti-google"></i></a>
+                            <a href=""><i class="ti-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+        
+            </div>
+            <div id="footer">
+                <p>Powered by <a href="">w3.css</a></p>
+        
+            </div>
+        </div>
+    </div>
+    <div id="mod" class="model">
+        <div class="info-model">
+
+            <button id="btn" class="btn-model"><i class="ti-close"></i></button>
+            <p class="title-model text-center">NEWSLETTER</p><br><br>
+            <p class="des-model text-center">Join our mailing list to receive updates on new arrivals and special offers.</p><br>
+            <input type="email" name="" id="" placeholder="Enter e-mail" class="form-control-model">
+            <div class="text-center">
+
+                <input type="submit" value="Subscribe" class="form-sub-model">
+            </div>
+        </div>
+    </div>
+    <script src="hideMenu.js"></script>
+</body>
+</html>

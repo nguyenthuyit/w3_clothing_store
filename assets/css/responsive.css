@@ -1,0 +1,37 @@
+@media(max-width: 1023px){
+    .m-col-full{
+        width: 100%;
+        padding: 0 16px;
+    }
+    #sidebar{
+        display: none;
+
+    }
+    #sidebar.open{
+        display: none;
+    }
+    .menu-tl-mobi{
+        display: flex;
+    }
+    #content .content-gird{
+        grid-template-columns: auto auto;
+    }
+    
+}
+@media (max-width: 739px){
+    .img-info .title-img{
+        font-size:3.6rem ;
+    }
+    .img-info .des-img{
+        font-size: 2rem;
+    }
+    
+    #content .form-submit{
+        width: 100%;
+    }
+
+    #content .form-contact{
+    width: 37%;
+    
+    }
+}
