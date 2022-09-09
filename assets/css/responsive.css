@@ -19,6 +19,9 @@
     
 }
 @media (max-width: 739px){
+    #sidebar{
+        width: 15rem;
+    }
     .img-info .title-img{
         font-size:3.6rem ;
     }
